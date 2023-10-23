@@ -65,10 +65,12 @@ body {
     width: 1000px;
     margin: 10px auto;
     border: white solid 1px;
+    display: inline-block;
+
 }
 
-.TotM_images {
+.TotM img, .TotM p {
     height: 200px;
     width: 300px;
-    
+    display: block;
 }
