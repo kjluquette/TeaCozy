@@ -53,7 +53,7 @@ body {
 .mission-text {
     background-color: black;
     position: relative;
-    top: -55%;
+    top: -65%;
     padding-bottom: 2px;
     padding-top: 2px;
 }
@@ -63,14 +63,20 @@ body {
 .TotM {
     height: 700px;
     width: 1000px;
-    margin: 10px auto;
-    border: white solid 1px;
-    display: inline-block;
-
+    margin: 100px auto;
 }
 
-.TotM img, .TotM p {
+.TotM figure {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.TotM img {
     height: 200px;
     width: 300px;
-    display: block;
+    text-align: center;
+}
+
+.TotM figcaption {
+    margin-top: 15px;
 }
