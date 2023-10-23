@@ -64,6 +64,7 @@ body {
     height: 700px;
     width: 1000px;
     margin: 100px auto;
+    border: none;
 }
 
 .TotM figure {
