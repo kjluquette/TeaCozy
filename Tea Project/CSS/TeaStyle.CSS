@@ -1,0 +1,74 @@
+
+html {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+}
+
+body {
+
+}
+
+.header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+}
+
+.header img {
+    opacity: 0.5;
+    margin-left: 10px;
+    float: left;
+    height: 50px;
+
+}
+
+.header_nav {
+    margin-left: 70%;
+    font-size: larger;
+    text-align: right;
+    justify-content: end;
+
+
+}
+
+/* Mission Statement */
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    margin: auto auto;
+}
+
+.mission img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mission-text {
+    background-color: black;
+    position: relative;
+    top: -55%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+/* Tea of the Month */
+
+.TotM {
+    height: 700px;
+    width: 1000px;
+    margin: 10px auto;
+    border: white solid 1px;
+}
+
+.TotM_images {
+    height: 200px;
+    width: 300px;
+    
+}
